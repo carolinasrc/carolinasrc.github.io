@@ -4,6 +4,8 @@ languageCode = "en-us"
 theme        = "hello-friend-ng"
 paginate     = 10
 publishDir = "docs"
+PygmentsCodeFences = true
+PygmentsStyle = "monokai"
 
 [params]
   dateform        = "Jan 2, 2006"
@@ -24,6 +26,26 @@ publishDir = "docs"
   description = "My new homepage or blog"
   keywords = "homepage, blog"
   images = [""]
+
+  # Theme
+  defaultTheme = "dark"
+  themeColor = "#252627"
+
+  # Toggle this option need to rebuild SCSS, requires extended version of Hugo
+  justifyContent = false  # Set "text-align: justify" to .content.
+
+  # Social icons
+  [[params.social]]
+    name = "twitter"
+    url  = "https://twitter.com/carolinasrc_"
+
+  [[params.social]]
+    name = "github"
+    url  = "https://github.com/carolinasrc"
+
+  [[params.social]]
+    name = "linkedin"
+    url  = "https://www.linkedin.com/in/carolinases/"
 
 [taxonomies]
     category = "blog"
