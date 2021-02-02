@@ -3,6 +3,9 @@ title        = "Carolina Soares"
 languageCode = "en-us"
 theme        = "hello-friend-ng"
 paginate     = 10
+
+DefaultContentLanguage = "en"
+
 publishDir = "docs"
 PygmentsCodeFences = true
 PygmentsStyle = "monokai"
@@ -32,7 +35,7 @@ disableHugoGeneratorInject = false
   homeSubtitle = "Software Developer | Carbon-based bipedal life form."
 
   # Set disableReadOtherPosts to true in order to hide the links to other posts.
-  disableReadOtherPosts = false
+  disableReadOtherPosts = true
 
   # Enable sharing buttons, if you linke
   enableSharingButtons = true
