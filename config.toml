@@ -1,11 +1,26 @@
 baseurl      = "https://nervous-brown-43faa8.netlify.app/"
-title        = "My Blog"
+title        = "Carolina Soares"
 languageCode = "en-us"
 theme        = "hello-friend-ng"
 paginate     = 10
 publishDir = "docs"
 PygmentsCodeFences = true
 PygmentsStyle = "monokai"
+
+
+buildDrafts  = false
+buildFuture  = false
+buildExpored = false
+canonifyURLs = true
+
+enableRobotsTXT = true
+enableGitInfo   = false
+enableEmoji     = true
+enableMissingTranslationPlaceholders = false
+disableRSS     = false
+disableSitemap = false
+disable404     = false
+disableHugoGeneratorInject = false
 
 [params]
   dateform        = "Jan 2, 2006"
@@ -14,7 +29,7 @@ PygmentsStyle = "monokai"
   dateformNumTime = "2006-01-02 15:04"
 
   # Subtitle for home
-  homeSubtitle = "A simple and beautiful blog"
+  homeSubtitle = "Software Developer | Carbon-based bipedal life form."
 
   # Set disableReadOtherPosts to true in order to hide the links to other posts.
   disableReadOtherPosts = false
@@ -23,8 +38,8 @@ PygmentsStyle = "monokai"
   enableSharingButtons = true
 
   # Metadata mostly used in document's head
-  description = "My new homepage or blog"
-  keywords = "homepage, blog"
+  description = "Software Developer | Carbon-based bipedal life form."
+  keywords = "homepage, blog, developer, elasticsearch, java, python, javascript, node, react, linux, logs"
   images = [""]
 
   # Theme
@@ -54,19 +69,9 @@ PygmentsStyle = "monokai"
 
 [languages]
   [languages.en]
-    title = "Hello Friend NG"
-    subtitle = "A simple theme for Hugo"
-    keywords = ""
+    subtitle  = "Hello Friend NG Theme"
+    weight    = 1
     copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
-    readOtherPosts = "Read other posts"
-
-    [languages.en.params.logo]
-      logoText = "hello friend ng"
-      logoHomeLink = "/"
-    # or
-    #
-    # path = "/img/your-example-logo.svg"
-    # alt = "Your example logo alt text"
 
   # And you can even create generic menu
   [[menu.main]]
