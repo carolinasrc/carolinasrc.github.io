@@ -1,5 +1,5 @@
 baseURL = "https://carolinasrc.dev/"
-title   = "carolinasrc"
+title   = "Carolina Soares"
 
 DefaultContentLanguage = "en"
 
@@ -12,7 +12,7 @@ rssLimit  = 10  # Maximum number of items in the RSS feed.
 copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License." # This message is only used by the RSS template.
 
 # googleAnalytics = ""
-# disqusShortname = "matheus-hernandes"
+# disqusShortname = ""
 
 archetypeDir = "archetypes"
 contentDir   = "content"
@@ -54,11 +54,11 @@ disableHugoGeneratorInject = false
   dateformNumTime = "2006-01-02 15:04 -0700"
 
   # Metadata mostly used in document's head
-  description = "Software Developer | Carbon-based bipedal life form."
+  description = "Software Developer"
   keywords = ""
   images = [""]
 
-  homeSubtitle = "Software Developer | Carbon-based bipedal life form."
+  homeSubtitle = "Software Developer"
 
   # Prefix of link to the git commit detail page. GitInfo must be enabled.
   # gitUrl = ""
@@ -99,16 +99,21 @@ disableHugoGeneratorInject = false
 
   # Social icons
   [[params.social]]
-    name = "twitter"
-    url  = "https://twitter.com/carolinasrc_"
-
-  [[params.social]]
     name = "github"
     url  = "https://github.com/carolinasrc"
 
   [[params.social]]
     name = "linkedin"
     url  = "https://www.linkedin.com/in/carolinases/"
+
+  [[params.social]]
+    name = "twitter"
+    url  = "https://twitter.com/carolinasrc_"
+
+    [[params.social]]
+    name = "telegram"
+    url = "https://t.me/carolinasrc"
+  
 
 [languages]
   [languages.en]
