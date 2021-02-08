@@ -29,7 +29,7 @@ enableRobotsTXT = true
 enableGitInfo   = false
 enableEmoji     = true
 enableMissingTranslationPlaceholders = false
-disableRSS     = true
+disableRSS     = false
 disableSitemap = false
 disable404     = false
 disableHugoGeneratorInject = false
@@ -57,7 +57,7 @@ disableHugoGeneratorInject = false
   description = "Carolina's website"
   keywords = ""
   images = ""
-  img = "/static/images/photo.png"
+  img = "/images/photo.png"
 
   homeSubtitle = "Software Developer"
 
@@ -91,6 +91,7 @@ disableHugoGeneratorInject = false
   [params.logo]
     logoText     = "$ cd /home/"
     logoHomeLink = "/"
+  
     # Set true to remove the logo cursor entirely.
     # logoCursorDisabled = false
     # Set to a valid CSS color to change the cursor in the logo.
@@ -98,6 +99,9 @@ disableHugoGeneratorInject = false
     # Set to a valid CSS time value to change the animation duration, "0s" to disable.
     # logoCursorAnimate  = "2s"
 
+  [params.portrait]
+    path = "/images/photo.png"
+  
   # Social icons
   [[params.social]]
     name = "github"
