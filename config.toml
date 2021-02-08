@@ -29,7 +29,7 @@ enableRobotsTXT = true
 enableGitInfo   = false
 enableEmoji     = true
 enableMissingTranslationPlaceholders = false
-disableRSS     = false
+disableRSS     = true
 disableSitemap = false
 disable404     = false
 disableHugoGeneratorInject = false
@@ -54,9 +54,10 @@ disableHugoGeneratorInject = false
   dateformNumTime = "2006-01-02 15:04 -0700"
 
   # Metadata mostly used in document's head
-  description = "Software Developer"
+  description = "Carolina's website"
   keywords = ""
-  images = [""]
+  images = ""
+  img = "/static/images/photo.png"
 
   homeSubtitle = "Software Developer"
 
