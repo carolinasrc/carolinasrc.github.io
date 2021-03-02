@@ -111,10 +111,6 @@ disableHugoGeneratorInject = false
     name = "linkedin"
     url  = "https://www.linkedin.com/in/carolinases/"
 
-  [[params.social]]
-    name = "twitter"
-    url  = "https://twitter.com/carolinasrc_"
-
     [[params.social]]
     name = "telegram"
     url = "https://t.me/carolinasrc"
